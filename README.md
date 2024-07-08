@@ -1,4 +1,6 @@
-# PollyGlot, AI-powered chat app that translate messages into French, Spanish, or Japanese using the OpenAI GPT-3.5-turbo model. Built with HTML, CSS, and JS as one of the solo projects in the Scrimba AI Engineer Path course
+# PollyGlot
+
+AI-powered chat app that translate messages into French, Spanish, or Japanese using the OpenAI GPT-3.5-turbo model. Built with HTML, CSS, and JS as one of the solo projects in the Scrimba AI Engineer Path course
 
 # Getting Started
 Install the dependencies and run the project
