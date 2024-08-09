@@ -2,7 +2,7 @@
 
 AI-powered chat app that translate messages into French, Spanish, or Japanese using the OpenAI GPT-3.5-turbo model. Built with HTML, CSS, and JS as one of the solo projects in the Scrimba AI Engineer Path course
 
-<img src="https://github.com/ChathurikaDissanayaka/polly-glot/blob/main/assets/Screenshot%202024-07-06%20143255.png">
+<img style="height: 500px; width: auto;" src="https://github.com/ChathurikaDissanayaka/polly-glot/blob/main/assets/Screenshot%202024-07-06%20143255.png">
 
 ## Getting Started
 Install the dependencies and run the project
