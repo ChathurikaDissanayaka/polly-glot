@@ -1,184 +1,178 @@
-body{
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100vw;
-    font-family: "Poppins", sans-serif;
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100vw;
+  font-family: "Open Sans", sans-serif;
 }
 
-header{
-    padding: 1em 2em;
-    background-image: url("assets/worldmap.png");
-    background-size: cover;
+header {
+  padding: 1em 2em;
+  background-image: url("assets/worldmap.png");
+  background-size: cover;
 }
 
-main{
-    position: relative;
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 250px;
-    height: 500px;
-    /* border: 3px solid #000; */
-    border-radius: 5px;
+main {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 250px;
+  height: 500px;
+  border-radius: 5px;
 }
 
-h1{
-    margin-bottom: 0;
-    font-family: "Big Shoulders Display", sans-serif;
-    font-size: 2rem;
-    font-weight: bolder;
-    color: #32CD32;
+h1 {
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #32cd32;
 }
 
-h2{
-    margin-top: 0;
-    font-weight:600;
-    font-size: 0.75rem;
-    color: #FFFFFF;
+h2 {
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #ffffff;
 }
 
-input[type="text"]{
-    font-family: "Poppins", sans-serif;
-    background-color: #EFF0F4;
-    border: none;
+input[type="text"] {
+  font-family: "Poppins", sans-serif;
+  background-color: #eff0f4;
+  border: none;
 }
 
-input[type=text]:focus {
-    margin-left: 10px;
-    outline: none;
+input[type="text"]:focus {
+  margin-left: 10px;
+  outline: none;
 }
 
-input[type="radio"]{
-    display: none;
+input[type="radio"] {
+  display: none;
 }
 
-input[type="radio"]:checked + .flag{
-    border: 2px solid #035A9D;
+input[type="radio"]:checked + .flag {
+  border: 2px solid #035a9d;
 }
 
-.parrot-img{
-    width: auto;
-    height: 5em;
+.parrot-img {
+  width: auto;
+  height: 5em;
 }
 
-.header-cont{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    max-width: 300px;
+.header-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  max-width: 300px;
 }
 
-.flag{
-    height: auto;
-    width: 35px;
-    border: 1px solid #999999;
-    cursor: pointer;
+.flag {
+  height: auto;
+  width: 35px;
+  border: 1px solid #999999;
+  cursor: pointer;
 }
 
-.language-selection{
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    margin: 0 45px;
+.language-selection {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 45px;
 }
 
-.input{
-    position: absolute;
-    bottom: 50px;
+.input {
+  position: absolute;
+  bottom: 50px;
 }
 
-.text{
-    display: flex;
-    align-items: center;
-    position: relative;
-    gap:5px;
-    padding-top: 10px;
-    padding-left: 8px;
-    padding-bottom: 10px;
-    width: 240px;
-    background-color: #EFF0F4;
-    /* border: 2px solid #000000; */
-    border-radius: 30px;
-    /* background-color: red; */
+.text {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #eff0f4;
+  width: 240px;
+  gap: 5px;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+  border-radius: 30px;
 }
 
-.icon{
-    position: absolute;
-    right: 15px;
-    width: 25px;
-    height: auto;
+.icon {
+  position: absolute;
+  right: 10px;
+  font-size: 25px;
+  color: #2fbe2f;
 }
 
-.sender-msg, 
-.reciever-msg{
-    padding: 10px;
-    font-size: 0.9rem;
-    font-weight: 500;
+.sender-msg,
+.reciever-msg {
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
-.reciever-msg{
-    position: relative;
-    background-color: #035A9D;
-    color: #FFFFFF;
-    border-radius: 0 10px 10px 10px;
-    align-self: flex-start;
-    max-width: 80%;
-    margin: 4px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.reciever-msg {
+  position: relative;
+  background-color: #035a9d;
+  color: #ffffff;
+  border-radius: 0 10px 10px 10px;
+  align-self: flex-start;
+  max-width: 80%;
+  margin: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.reciever-msg::after{
-    content: "";
-    position: absolute;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #035A9D;
-    left: -5px;
-    top: 0px;
+.reciever-msg::after {
+  content: "";
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #035a9d;
+  left: -5px;
+  top: 0px;
 }
 
-.sender-msg{
-    position: relative;
-    background-color: #2fbe2f;
-    color: #FFFFFF;
-    border-radius: 10px 0 10px 10px;
-    align-self: flex-end;
-    max-width: 80%;
-    margin: 4px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.sender-msg {
+  position: relative;
+  background-color: #2fbe2f;
+  color: #ffffff;
+  border-radius: 10px 0 10px 10px;
+  align-self: flex-end;
+  max-width: 80%;
+  margin: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.sender-msg::after{
-    content: "";
-    position: absolute;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #2fbe2f;
-    right: -5px;
-    top: 0px;
+.sender-msg::after {
+  content: "";
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #2fbe2f;
+  right: -5px;
+  top: 0px;
 }
 
-.container{
-    right: 5px;
-    padding: 5px;
-    overflow-y: auto;
-    height: 400px;
-    /* background-color: red; */
-    display: flex;
-    flex-direction: column;
+.container {
+  right: 5px;
+  padding: 5px;
+  overflow-y: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .container::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 .container::-webkit-scrollbar-thumb {
-    border: none;
-    border-radius: 10px;
-    background-color: #EFF0F4;
+  border: none;
+  border-radius: 10px;
+  background-color: #eff0f4;
 }
-
