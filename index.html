@@ -24,32 +24,32 @@
     </header>
     <div class="cont">
         <main>
-            <section>
-                <div id="msgs" class="container">
-                    <p class="reciever-msg">Hi, I'am PollyGlot! Select the language you want me to translate into, type
-                        your text and hit send!</p>
+            <section id="msgs" class="container">
+                <p class="reciever-msg">Hi, I'am PollyGlot! Select the language you want me to translate into, type
+                    your text and hit send!</p>
+            </section>
+            <section class="bla">
+                <div class="input">
+                    <div class="text">
+                        <input type="text" id="message" maxlength="100">
+                        <i id="send" class="fa-solid fa-circle-arrow-right icon"></i>
+                    </div>
+                </div>
+                <div class="language-selection">
+                    <label for="French">
+                        <input type="radio" name="lang" id="French">
+                        <img class="flag" src="assets/fr-flag.png" alt="French flag">
+                    </label>
+                    <label for="Spanish">
+                        <input type="radio" name="lang" id="Spanish">
+                        <img class="flag" src="assets/sp-flag.png" alt="Spanish flag">
+                    </label>
+                    <label for="Japanese">
+                        <input type="radio" name="lang" id="Japanese">
+                        <img class="flag" src="assets/jpn-flag.png" alt="Japanese flag">
+                    </label>
                 </div>
             </section>
-            <section class="input">
-                <div class="text">
-                    <input type="text" id="message" maxlength="100">
-                    <i id="send" class="fa-solid fa-circle-arrow-right icon"></i>
-                </div>
-            </section>
-            <div class="language-selection">
-                <label for="French">
-                    <input type="radio" name="lang" id="French">
-                    <img class="flag" src="assets/fr-flag.png" alt="French flag">
-                </label>
-                <label for="Spanish">
-                    <input type="radio" name="lang" id="Spanish">
-                    <img class="flag" src="assets/sp-flag.png" alt="Spanish flag">
-                </label>
-                <label for="Japanese">
-                    <input type="radio" name="lang" id="Japanese">
-                    <img class="flag" src="assets/jpn-flag.png" alt="Japanese flag">
-                </label>
-            </div>
         </main>
     </div>
     <script src="index.js" type="module"></script>

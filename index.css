@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  max-width: 100vw;
+  width: 100%;
+  height: 100vh;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -11,13 +16,26 @@ header {
   background-size: cover;
 }
 
+.bla{
+    background-color: lightblue;
+    width: 100%;
+    height: 15%;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.cont {
+  height: 80%;
+  margin: 0;
+  padding: 0;
+}
+
 main {
   position: relative;
   margin: 0 auto;
-  padding: 0 20px;
-  max-width: 250px;
-  height: 500px;
-  border-radius: 5px;
+  height: 100%;
 }
 
 h1 {
@@ -36,13 +54,14 @@ h2 {
 }
 
 input[type="text"] {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #eff0f4;
+  width: 80%;
+  margin-left: 10px;
   border: none;
 }
 
 input[type="text"]:focus {
-  margin-left: 10px;
   outline: none;
 }
 
@@ -51,7 +70,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + .flag {
-  border: 2px solid #035a9d;
+  border: 2px solid #2fbe2f;
 }
 
 .parrot-img {
@@ -76,17 +95,16 @@ input[type="radio"]:checked + .flag {
 
 .language-selection {
   display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
-  margin: 0 45px;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 400px;
 }
 
 .input {
-  position: absolute;
   bottom: 50px;
+  width: 400px;
+  margin: 10px auto;
+  padding: 0;
 }
 
 .text {
@@ -94,10 +112,9 @@ input[type="radio"]:checked + .flag {
   align-items: center;
   position: relative;
   background-color: #eff0f4;
-  width: 240px;
-  gap: 5px;
+  width: 100%;
+  margin: 0 auto;
   padding-top: 10px;
-  padding-left: 8px;
   padding-bottom: 10px;
   border-radius: 30px;
 }
@@ -160,9 +177,9 @@ input[type="radio"]:checked + .flag {
 
 .container {
   right: 5px;
-  padding: 5px;
+  padding: 0 10px;
   overflow-y: auto;
-  height: 400px;
+  height: 84%;
   display: flex;
   flex-direction: column;
 }
@@ -175,4 +192,10 @@ input[type="radio"]:checked + .flag {
   border: none;
   border-radius: 10px;
   background-color: #eff0f4;
+}
+
+@media only screen and (max-width: 450px) {
+ .input, .language-selection{
+    width: 80%;
+  }
 }
