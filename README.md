@@ -5,8 +5,8 @@ AI-powered chat app that translate messages into French, Spanish, or Japanese us
 [Try it here](https://polly-glot.pages.dev/)
 
 
-<img style="height: 400px; width: auto;" src="./assets/pg1.jpeg">
-<img style="height: 400px; width: auto;" src="./assets/pg2.jpeg">
+<img style="height: 400px; width: auto;" src="./assets/PG.png">
+<img style="height: 400px; width: auto;" src="./assets/PG2.png">
 
 <!-- ## Getting Started
 Install the dependencies and run the project
